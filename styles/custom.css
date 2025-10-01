@@ -1,0 +1,124 @@
+/* ===== Global ===== */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+  background: #161618;
+  color: #e4e4e7;
+  border-right: 1px solid #2d2d2d;
+}
+
+.sidebar a {
+  color: #d1d5db;
+}
+.sidebar a:hover {
+  color: #f43f5e; /* rose accent */
+}
+.sidebar a.active {
+  color: #f43f5e;
+  font-weight: 600;
+}
+
+/* Explorer folder titles */
+.sidebar .folder {
+  color: #f43f5e;
+  font-weight: 500;
+}
+
+/* Search box */
+.sidebar input[type="search"] {
+  background: #2d2d2d;
+  color: #e4e4e7;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+/* ===== Tags ===== */
+.tag {
+  background: #2d2d2d;
+  color: #f43f5e;
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.85rem;
+}
+
+/* ===== Headings ===== */
+h1 {
+  color: #f43f5e;
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #e4e4e7;
+}
+
+/* ===== Links ===== */
+main a {
+  color: #f43f5e;
+}
+main a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Table of Contents ===== */
+.table-of-contents a {
+  color: #a1a1aa;
+}
+.table-of-contents a:hover {
+  color: #f43f5e;
+}
+/* hide default footer branding */
+footer {
+  display: none !important;
+}
+/* ===== Custom Footer ===== */
+footer {
+  background: #1f2937; /* dark slate background */
+  color: #9ca3af; /* light gray text */
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  border-top: 1px solid #374151;
+}
+
+footer a {
+  color: #34d399; /* emerald accent */
+  margin: 0 0.75rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: #60a5fa; /* blue on hover */
+  text-decoration: underline;
+}
+footer {
+  display: none !important;
+}
+/* hide any default Quartz footer text */
+footer p {
+  display: none !important;
+}
+/* Remove Quartz default footer text */
+footer p {
+  display: none !important;
+}
+
+/* (Optional) style your custom links */
+footer a {
+  color: #60a5fa; /* blue accent */
+  margin: 0 0.75rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: #34d399; /* emerald hover */
+  text-decoration: underline;
+}
