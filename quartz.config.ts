@@ -1,8 +1,8 @@
-import { QuartzConfig } from "./quartz/cfg"
-import * as Plugin from "./quartz/plugins"
+import { QuartzConfig } from "./quartz/cfg";
+import * as Plugin from "./quartz/plugins";
 
 // 👇 import our custom CSS overrides
-import "./styles/custom.css"
+import "./styles/custom.css";
 
 /**
  * Quartz 4 Configuration – Customized
@@ -17,7 +17,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "wims.dev", // 👈 your domain
+    baseUrl: "wims.pages.dev", // 👈 your domain
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
 
@@ -94,6 +94,6 @@ const config: QuartzConfig = {
       Plugin.CustomOgImages(),
     ],
   },
-}
+};
 
-export default config
+export default config;
