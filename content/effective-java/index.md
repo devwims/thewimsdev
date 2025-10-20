@@ -1,11 +1,19 @@
 ---
 title: Effective Java
 ---
+---
+title: Effective Java Notes
+---
 
 # Effective Java Notes
 
-Concise notes and summaries from *Effective Java (3rd Edition)*.
+Notes and key takeaways from *Effective Java (3rd Edition)* by **Joshua Bloch**.  
+Organized chapter-wise for structure, with each chapter containing detailed notes for every item.
 
-## Items
-- [Item 1: Static Factory Methods](item-01-static-factory-methods)
-- [Item 2: Builder Pattern](item-02-builder-pattern)
+---
+
+## 📘 Chapters
+
+- [Chapter 4: Generics](chapters/chapter-4-generics/)
+- [Chapter 5: Enums and Annotations](chapters/chapter-5-enums-and-annotations/)
+
